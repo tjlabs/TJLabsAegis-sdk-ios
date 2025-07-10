@@ -14,23 +14,32 @@ build/
 xcuserdata/
 *.xccheckout
 *.moved-aside
-DerivedData
+DerivedData/
 *.hmap
 *.ipa
 
 # Bundler
 .bundle
 
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
+# Carthage
+Carthage/Build/
 
-Carthage/Build
-
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
-# 
-# Note: if you ignore the Pods directory, make sure to uncomment
-# `pod install` in .travis.yml
-#
+# CocoaPods
 # Pods/
+
+# xcframework은 기본적으로 무시
+*.xcframework/
+
+# ✅ Podspec과 같은 위치에 있는 Frameworks 폴더 내 .xcframework만 포함
+!Frameworks/
+!Frameworks/TJLabsAuth.xcframework/
+!Frameworks/TJLabsAegis.xcframework/
+!Frameworks/TJLabsCommon.xcframework/
+
+# ❌ Example 샘플 프로젝트 내부의 프레임워크는 무시
+Example/**/Frameworks/
+Example/**/xcframeworks/
+Example/**/*.xcframework/
+
+# 기타
+*.xcworkspace/
