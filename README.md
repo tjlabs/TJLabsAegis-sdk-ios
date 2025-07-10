@@ -22,7 +22,7 @@ pod 'TJLabsAegisSDK'
 
 ## Author
 
-tjlabs-dev, 92098727+tjlabs-dev@users.noreply.github.com
+tjlabs-dev, dev@tjlabscorp.com
 
 ## License
 
