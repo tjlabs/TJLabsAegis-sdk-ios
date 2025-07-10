@@ -176,10 +176,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/TJLabsAegisSDK/TJLabsAegisSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsAuth.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsAegis.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsCommon.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/TJLabsAegisSDK/TJLabsAegisSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsAuth.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsAegis.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsCommon.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

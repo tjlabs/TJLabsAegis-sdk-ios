@@ -8,76 +8,80 @@
 
 /* Begin PBXBuildFile section */
 		048FA7494EE505851FFAF7543EE9C3DD /* Pods-TJLabsAegisSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9C7527EB5653BAA2448D374CDF1740 /* Pods-TJLabsAegisSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		092AFE974D50678118DE3A0B476B87A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		089B83EB12EA5D7E25FE7172C42C204E /* AegisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A914348E9D5642DEB0F27F9575902D /* AegisManager.swift */; };
 		22E9DE8D272E19D5B99E8236C9CE5B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		36A8D28AB1122D5040CD6025FA80F5A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		5476A829AFDFFFB6090B52172CB62394 /* TJLabsAegisSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9313EAA5021DCD24EF1E59B88F6353F2 /* TJLabsAegisSDK-dummy.m */; };
 		77634C0AD79845F066AE09A033EB44A9 /* Pods-TJLabsAegisSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 986DC58011DECF0949E20DE81A4F716A /* Pods-TJLabsAegisSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A3909A98B55FE1EFF883636C4080525 /* TJLabsAegisSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F036F06E5C8189AD3C0BEAAD78A2989B /* TJLabsAegisSDK-dummy.m */; };
-		8A680AA56CB292241D0D3A4F25D467CE /* AegisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B160FFA898AB640E635C2664C5DF /* AegisManager.swift */; };
+		8FF6F2D83F323F52E8235BFD78B1219C /* TJLabsAegisSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C60B9CD962B7BE2AF9CEFE81A64E9CB /* TJLabsAegisSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA70E3957B3ECD7283AF5C09DACCC2C9 /* Pods-TJLabsAegisSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5783E5597523E57CEF5BF294C18CFF05 /* Pods-TJLabsAegisSDK_Example-dummy.m */; };
 		C7BEAFAB667DE10AA6EE0665FE78AC55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		E88494F186982345F1EB79183E884B82 /* TJLabsAegisSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59192BC87D455C692D2B2BD2828D5A18 /* TJLabsAegisSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0C5B7B351CA2EF77CB22E05FCDED252 /* Pods-TJLabsAegisSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 341F934162F949D185436F745B5C59C9 /* Pods-TJLabsAegisSDK_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27528D0729E2D4B1D6B2B803E271B834 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FA32D00DF62140C32AB3FC42B391857;
-			remoteInfo = TJLabsAegisSDK;
-		};
-		49D688E086020F28C49EA5814EA41ECA /* PBXContainerItemProxy */ = {
+		610CF737AD8AB6EDBC8F99746FE43374 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F69860AB6877B3C101315661C791230F;
 			remoteInfo = "Pods-TJLabsAegisSDK_Example";
 		};
+		DB2D2EB860187A79C2B43F6B814081EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FA32D00DF62140C32AB3FC42B391857;
+			remoteInfo = TJLabsAegisSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01AC676D3E596DFCCA0499C2BD7DDDEE /* Pods-TJLabsAegisSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJLabsAegisSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		04F3B160FFA898AB640E635C2664C5DF /* AegisManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AegisManager.swift; path = TJLabsAegisSDK/Classes/AegisManager.swift; sourceTree = "<group>"; };
 		05184C24166AF422B14059F1935F14BA /* Pods-TJLabsAegisSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJLabsAegisSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		060F88B8D8E12A6AABEDC6FEDB1F1766 /* TJLabsAegisSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJLabsAegisSDK.release.xcconfig; sourceTree = "<group>"; };
 		0CCA7652CB4704871EA4EEA7F8CC6B6D /* Pods_TJLabsAegisSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJLabsAegisSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0526F162E08E54CA96181629755F1F /* TJLabsAegisSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TJLabsAegisSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		12AD15C57E5CA50C81EDBA6663A5D8E2 /* Pods-TJLabsAegisSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJLabsAegisSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		150F467FCBB6278DB7096C26B56C586B /* TJLabsAegisSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TJLabsAegisSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		2E36EC3F9DA83776B46AF45B7E36F7F6 /* TJLabsAegisSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJLabsAegisSDK.debug.xcconfig; sourceTree = "<group>"; };
 		341F934162F949D185436F745B5C59C9 /* Pods-TJLabsAegisSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJLabsAegisSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		3505334D5B74CDAD3A1263CE8B639696 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		365AF5F8B8B82A71B308907CF56A5835 /* Pods-TJLabsAegisSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TJLabsAegisSDK_Example.modulemap"; sourceTree = "<group>"; };
+		372A50DBBF1AD5C96BD6C35EDCD04E61 /* TJLabsAegisSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJLabsAegisSDK.release.xcconfig; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		44F93719ED9161335BEEF1966EBB3ABD /* TJLabsAegisSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TJLabsAegisSDK.modulemap; sourceTree = "<group>"; };
-		515C9998B9B5E93ACF5D5FCDAB20CC4B /* TJLabsAegisSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJLabsAegisSDK-prefix.pch"; sourceTree = "<group>"; };
+		3F9FDC37BBB2970BE01D7006F06B1587 /* TJLabsAegisSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TJLabsAegisSDK-Info.plist"; sourceTree = "<group>"; };
 		5783E5597523E57CEF5BF294C18CFF05 /* Pods-TJLabsAegisSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJLabsAegisSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		59192BC87D455C692D2B2BD2828D5A18 /* TJLabsAegisSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJLabsAegisSDK-umbrella.h"; sourceTree = "<group>"; };
 		5996E2A47451175653230A9439D50B8F /* Pods-TJLabsAegisSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJLabsAegisSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		612FD8E8E18B85D7587883206F3C13A9 /* TJLabsAegis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TJLabsAegis.xcframework; path = Frameworks/TJLabsAegis.xcframework; sourceTree = "<group>"; };
 		62FF5BC3D5462A5547052970AFE2CA89 /* TJLabsAegisSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TJLabsAegisSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C60B9CD962B7BE2AF9CEFE81A64E9CB /* TJLabsAegisSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJLabsAegisSDK-umbrella.h"; sourceTree = "<group>"; };
 		6CDB4B6D53B8E58E76EFC980E0D88E68 /* Pods-TJLabsAegisSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJLabsAegisSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		736527BA92053571363B71DD6E029B25 /* Pods-TJLabsAegisSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJLabsAegisSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7E8D6E92EEFC4F8F022E245308044B2E /* Pods-TJLabsAegisSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJLabsAegisSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7E9821977D8A2C8D8CDA1BF63C51AE77 /* Pods-TJLabsAegisSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJLabsAegisSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		87CFC905D5436723C1E3CD9FC5586AB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D07A0E124626B9A27A86EE33B66F2FC /* TJLabsAegisSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TJLabsAegisSDK.modulemap; sourceTree = "<group>"; };
 		8F8A35D847FD034ED1F4AA4AC2F5ECD7 /* Pods_TJLabsAegisSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJLabsAegisSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9313EAA5021DCD24EF1E59B88F6353F2 /* TJLabsAegisSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJLabsAegisSDK-dummy.m"; sourceTree = "<group>"; };
+		943A06A8F799EC46616E4E0BFE8F6A14 /* TJLabsAegisSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJLabsAegisSDK-prefix.pch"; sourceTree = "<group>"; };
 		986DC58011DECF0949E20DE81A4F716A /* Pods-TJLabsAegisSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJLabsAegisSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A76428EF823DF8C0FB3685D05D2C4D41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A87FDF2250EE9DC8D85581C61C45F889 /* TJLabsCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TJLabsCommon.xcframework; path = Frameworks/TJLabsCommon.xcframework; sourceTree = "<group>"; };
 		A8E85CB80F82989491DDA3EEB4ABEFCC /* Pods-TJLabsAegisSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJLabsAegisSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AC1DD16377A3D1CE854513C95FA0F21B /* TJLabsAuth.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TJLabsAuth.xcframework; path = Frameworks/TJLabsAuth.xcframework; sourceTree = "<group>"; };
 		AE9C7527EB5653BAA2448D374CDF1740 /* Pods-TJLabsAegisSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJLabsAegisSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B28C76ED2D05D6B3135C51A4BE39212B /* Pods-TJLabsAegisSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TJLabsAegisSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		B5903A0E6FCA9FD10B580A90CF5D4D1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CB3628EA7DE631308734DDC92AA862DE /* Pods-TJLabsAegisSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJLabsAegisSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D7794D7914CEB5235CA4DE6F32D50418 /* TJLabsAegisSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TJLabsAegisSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		DA0239B1B41F0A03D52811E25D5C1327 /* Pods-TJLabsAegisSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJLabsAegisSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E7E6A2B503D0BAFA67195653945C7510 /* TJLabsAegisSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJLabsAegisSDK.debug.xcconfig; sourceTree = "<group>"; };
-		F036F06E5C8189AD3C0BEAAD78A2989B /* TJLabsAegisSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJLabsAegisSDK-dummy.m"; sourceTree = "<group>"; };
-		F15D5FDBEC03ECE6C1B8A22D8230F4A4 /* TJLabsAegisSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TJLabsAegisSDK-Info.plist"; sourceTree = "<group>"; };
+		F4A914348E9D5642DEB0F27F9575902D /* AegisManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AegisManager.swift; path = TJLabsAegisSDK/Classes/AegisManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5836C279FBF8F542E2C45DD9EAFADF0D /* Frameworks */ = {
+		4F99EBCB3BF382EC250F3506F4BCA346 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				092AFE974D50678118DE3A0B476B87A7 /* Foundation.framework in Frameworks */,
+				36A8D28AB1122D5040CD6025FA80F5A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,20 +137,46 @@
 			path = "Target Support Files/Pods-TJLabsAegisSDK_Tests";
 			sourceTree = "<group>";
 		};
-		6492CCCE162DE8BEC58A22F767170930 /* Development Pods */ = {
+		5C495F392578590E2B95610769130D9E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D02CC4E0ACA538974BADDA4EA88CFE5D /* TJLabsAegisSDK */,
+				FC9BEB91F4E55F4A591984B4FF5D0253 /* TJLabsAegisSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		90AF55D73180267C656D34776DFDBA7A /* Pod */ = {
+		62695DF34DA4C3372939EC4FFFC1F75B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A76428EF823DF8C0FB3685D05D2C4D41 /* LICENSE */,
-				87CFC905D5436723C1E3CD9FC5586AB2 /* README.md */,
-				D7794D7914CEB5235CA4DE6F32D50418 /* TJLabsAegisSDK.podspec */,
+				612FD8E8E18B85D7587883206F3C13A9 /* TJLabsAegis.xcframework */,
+				AC1DD16377A3D1CE854513C95FA0F21B /* TJLabsAuth.xcframework */,
+				A87FDF2250EE9DC8D85581C61C45F889 /* TJLabsCommon.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C84CC931F216251F4E3595ACD8FAEBD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D07A0E124626B9A27A86EE33B66F2FC /* TJLabsAegisSDK.modulemap */,
+				9313EAA5021DCD24EF1E59B88F6353F2 /* TJLabsAegisSDK-dummy.m */,
+				3F9FDC37BBB2970BE01D7006F06B1587 /* TJLabsAegisSDK-Info.plist */,
+				943A06A8F799EC46616E4E0BFE8F6A14 /* TJLabsAegisSDK-prefix.pch */,
+				6C60B9CD962B7BE2AF9CEFE81A64E9CB /* TJLabsAegisSDK-umbrella.h */,
+				150F467FCBB6278DB7096C26B56C586B /* TJLabsAegisSDK-xcframeworks.sh */,
+				2E36EC3F9DA83776B46AF45B7E36F7F6 /* TJLabsAegisSDK.debug.xcconfig */,
+				372A50DBBF1AD5C96BD6C35EDCD04E61 /* TJLabsAegisSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TJLabsAegisSDK";
+			sourceTree = "<group>";
+		};
+		80B873E4751E8A6073D27C0DC3A872A9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B5903A0E6FCA9FD10B580A90CF5D4D1C /* LICENSE */,
+				3505334D5B74CDAD3A1263CE8B639696 /* README.md */,
+				0D0526F162E08E54CA96181629755F1F /* TJLabsAegisSDK.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -174,22 +204,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6492CCCE162DE8BEC58A22F767170930 /* Development Pods */,
+				5C495F392578590E2B95610769130D9E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				92BB0640F067982C6046A116C04377E5 /* Products */,
 				B4265FD0300AF825DE24DE949D5E069F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D02CC4E0ACA538974BADDA4EA88CFE5D /* TJLabsAegisSDK */ = {
-			isa = PBXGroup;
-			children = (
-				04F3B160FFA898AB640E635C2664C5DF /* AegisManager.swift */,
-				90AF55D73180267C656D34776DFDBA7A /* Pod */,
-				EF58ADBD1BA163C46B797F17F6839BD5 /* Support Files */,
-			);
-			name = TJLabsAegisSDK;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -208,19 +227,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EF58ADBD1BA163C46B797F17F6839BD5 /* Support Files */ = {
+		FC9BEB91F4E55F4A591984B4FF5D0253 /* TJLabsAegisSDK */ = {
 			isa = PBXGroup;
 			children = (
-				44F93719ED9161335BEEF1966EBB3ABD /* TJLabsAegisSDK.modulemap */,
-				F036F06E5C8189AD3C0BEAAD78A2989B /* TJLabsAegisSDK-dummy.m */,
-				F15D5FDBEC03ECE6C1B8A22D8230F4A4 /* TJLabsAegisSDK-Info.plist */,
-				515C9998B9B5E93ACF5D5FCDAB20CC4B /* TJLabsAegisSDK-prefix.pch */,
-				59192BC87D455C692D2B2BD2828D5A18 /* TJLabsAegisSDK-umbrella.h */,
-				E7E6A2B503D0BAFA67195653945C7510 /* TJLabsAegisSDK.debug.xcconfig */,
-				060F88B8D8E12A6AABEDC6FEDB1F1766 /* TJLabsAegisSDK.release.xcconfig */,
+				F4A914348E9D5642DEB0F27F9575902D /* AegisManager.swift */,
+				62695DF34DA4C3372939EC4FFFC1F75B /* Frameworks */,
+				80B873E4751E8A6073D27C0DC3A872A9 /* Pod */,
+				6C84CC931F216251F4E3595ACD8FAEBD /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TJLabsAegisSDK";
+			name = TJLabsAegisSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,11 +258,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4343191491B476070BD614FFDBCD3EB /* Headers */ = {
+		CE434CD5E5039C5888E163B1CE277CC9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E88494F186982345F1EB79183E884B82 /* TJLabsAegisSDK-umbrella.h in Headers */,
+				8FF6F2D83F323F52E8235BFD78B1219C /* TJLabsAegisSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +271,13 @@
 /* Begin PBXNativeTarget section */
 		5FA32D00DF62140C32AB3FC42B391857 /* TJLabsAegisSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77BC32437CA95EB4147345CF5532A4F6 /* Build configuration list for PBXNativeTarget "TJLabsAegisSDK" */;
+			buildConfigurationList = 937895D9F67B0E595F1F30F02C55A9CA /* Build configuration list for PBXNativeTarget "TJLabsAegisSDK" */;
 			buildPhases = (
-				C4343191491B476070BD614FFDBCD3EB /* Headers */,
-				0E76EE2A383ADDC0E3EFD606359DA68A /* Sources */,
-				5836C279FBF8F542E2C45DD9EAFADF0D /* Frameworks */,
-				8AEDA3596EDFBA41826BDCE474542716 /* Resources */,
+				CE434CD5E5039C5888E163B1CE277CC9 /* Headers */,
+				37E4DB175F643AFBBA37F72009B39F85 /* [CP] Copy XCFrameworks */,
+				09DF3B18FC1A0099FCF3B2E9CF6BFD35 /* Sources */,
+				4F99EBCB3BF382EC250F3506F4BCA346 /* Frameworks */,
+				7FBBB8D9C8C16A39D1E48452B83F8156 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -283,7 +300,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				92CC9B28C195D602C6E3072E92977C4C /* PBXTargetDependency */,
+				DD14F5B84E4F191DD00E3B30E49D5034 /* PBXTargetDependency */,
 			);
 			name = "Pods-TJLabsAegisSDK_Tests";
 			productName = Pods_TJLabsAegisSDK_Tests;
@@ -302,7 +319,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E135D6C7E4125CEDDAB4F888B0CBC2AA /* PBXTargetDependency */,
+				5983C2FC9F0EFA59CF60415C5D8C6613 /* PBXTargetDependency */,
 			);
 			name = "Pods-TJLabsAegisSDK_Example";
 			productName = Pods_TJLabsAegisSDK_Example;
@@ -353,7 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AEDA3596EDFBA41826BDCE474542716 /* Resources */ = {
+		7FBBB8D9C8C16A39D1E48452B83F8156 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,13 +379,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37E4DB175F643AFBBA37F72009B39F85 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-xcframeworks.sh",
+				"${PODS_ROOT}/../../Frameworks/TJLabsAuth.xcframework",
+				"${PODS_ROOT}/../../Frameworks/TJLabsAegis.xcframework",
+				"${PODS_ROOT}/../../Frameworks/TJLabsCommon.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsAuth.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsAegis.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsCommon.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0E76EE2A383ADDC0E3EFD606359DA68A /* Sources */ = {
+		09DF3B18FC1A0099FCF3B2E9CF6BFD35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A680AA56CB292241D0D3A4F25D467CE /* AegisManager.swift in Sources */,
-				7A3909A98B55FE1EFF883636C4080525 /* TJLabsAegisSDK-dummy.m in Sources */,
+				089B83EB12EA5D7E25FE7172C42C204E /* AegisManager.swift in Sources */,
+				5476A829AFDFFFB6090B52172CB62394 /* TJLabsAegisSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +433,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		92CC9B28C195D602C6E3072E92977C4C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TJLabsAegisSDK_Example";
-			target = F69860AB6877B3C101315661C791230F /* Pods-TJLabsAegisSDK_Example */;
-			targetProxy = 49D688E086020F28C49EA5814EA41ECA /* PBXContainerItemProxy */;
-		};
-		E135D6C7E4125CEDDAB4F888B0CBC2AA /* PBXTargetDependency */ = {
+		5983C2FC9F0EFA59CF60415C5D8C6613 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TJLabsAegisSDK;
 			target = 5FA32D00DF62140C32AB3FC42B391857 /* TJLabsAegisSDK */;
-			targetProxy = 27528D0729E2D4B1D6B2B803E271B834 /* PBXContainerItemProxy */;
+			targetProxy = DB2D2EB860187A79C2B43F6B814081EB /* PBXContainerItemProxy */;
+		};
+		DD14F5B84E4F191DD00E3B30E49D5034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TJLabsAegisSDK_Example";
+			target = F69860AB6877B3C101315661C791230F /* Pods-TJLabsAegisSDK_Example */;
+			targetProxy = 610CF737AD8AB6EDBC8F99746FE43374 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,6 +555,43 @@
 			};
 			name = Release;
 		};
+		771043D60C24936CCBCC4FE03D238EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372A50DBBF1AD5C96BD6C35EDCD04E61 /* TJLabsAegisSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK.modulemap";
+				PRODUCT_MODULE_NAME = TJLabsAegisSDK;
+				PRODUCT_NAME = TJLabsAegisSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -573,77 +652,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		96CA4AF8DE5567E4A3404953C2186740 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 060F88B8D8E12A6AABEDC6FEDB1F1766 /* TJLabsAegisSDK.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK.modulemap";
-				PRODUCT_MODULE_NAME = TJLabsAegisSDK;
-				PRODUCT_NAME = TJLabsAegisSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A51C9672A446622A5A7DBC7BA395FDA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7E6A2B503D0BAFA67195653945C7510 /* TJLabsAegisSDK.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK.modulemap";
-				PRODUCT_MODULE_NAME = TJLabsAegisSDK;
-				PRODUCT_NAME = TJLabsAegisSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -711,6 +719,42 @@
 			};
 			name = Debug;
 		};
+		EC60734F7B6409204490C68445542F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E36EC3F9DA83776B46AF45B7E36F7F6 /* TJLabsAegisSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TJLabsAegisSDK/TJLabsAegisSDK.modulemap";
+				PRODUCT_MODULE_NAME = TJLabsAegisSDK;
+				PRODUCT_NAME = TJLabsAegisSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		ECB921C4D2721C9EE04C156DDBCE6B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5996E2A47451175653230A9439D50B8F /* Pods-TJLabsAegisSDK_Tests.debug.xcconfig */;
@@ -767,11 +811,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77BC32437CA95EB4147345CF5532A4F6 /* Build configuration list for PBXNativeTarget "TJLabsAegisSDK" */ = {
+		937895D9F67B0E595F1F30F02C55A9CA /* Build configuration list for PBXNativeTarget "TJLabsAegisSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A51C9672A446622A5A7DBC7BA395FDA1 /* Debug */,
-				96CA4AF8DE5567E4A3404953C2186740 /* Release */,
+				EC60734F7B6409204490C68445542F13 /* Debug */,
+				771043D60C24936CCBCC4FE03D238EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

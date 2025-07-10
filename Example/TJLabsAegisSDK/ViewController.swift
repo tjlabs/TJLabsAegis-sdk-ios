@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  TJLabsAegisSDK
-//
-//  Created by tjlabs-dev on 07/10/2025.
-//  Copyright (c) 2025 tjlabs-dev. All rights reserved.
-//
 
 import UIKit
 

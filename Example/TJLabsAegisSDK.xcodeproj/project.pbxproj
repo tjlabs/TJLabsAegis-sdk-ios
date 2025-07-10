@@ -293,11 +293,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TJLabsAegisSDK_Example/Pods-TJLabsAegisSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TJLabsAegisSDK/TJLabsAegisSDK.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsAuth.framework/TJLabsAuth",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsAegis.framework/TJLabsAegis",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TJLabsAegisSDK/TJLabsCommon.framework/TJLabsCommon",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TJLabsAegisSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TJLabsAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TJLabsAegis.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TJLabsCommon.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
