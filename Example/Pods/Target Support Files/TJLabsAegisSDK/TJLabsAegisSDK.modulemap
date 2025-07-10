@@ -1,0 +1,6 @@
+framework module TJLabsAegisSDK {
+  umbrella header "TJLabsAegisSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

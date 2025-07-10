@@ -1,0 +1,45 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/leo/Library/Developer/Xcode/DerivedData/TJLabsAegis-frgpvyzpjfumskasqzgjpqjcnylt/Build/Intermediates.noindex/ArchiveIntermediates/TJLabsAegis/InstallationBuildProductsLocation/Library/Frameworks/TJLabsAegis.framework/TJLabsAegis'
+relocations:
+  - { offset: 0x34A52, size: 0x8, addend: 0x0, symName: _TJLabsAegisVersionString, symObjAddr: 0x0, symBinAddr: 0x5190, symSize: 0x0 }
+  - { offset: 0x34A86, size: 0x8, addend: 0x0, symName: _TJLabsAegisVersionNumber, symObjAddr: 0x30, symBinAddr: 0x51C0, symSize: 0x0 }
+  - { offset: 0x35043, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC8delegateAA0aB8Delegate_pSgvpACTK', symObjAddr: 0x1B0, symBinAddr: 0x2040, symSize: 0x40 }
+  - { offset: 0x3507F, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC8delegateAA0aB8Delegate_pSgvpACTk', symObjAddr: 0x1F0, symBinAddr: 0x2080, symSize: 0x50 }
+  - { offset: 0x351C0, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSd_Tg5', symObjAddr: 0x1120, symBinAddr: 0x2F20, symSize: 0x110 }
+  - { offset: 0x352CD, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x1230, symBinAddr: 0x3030, symSize: 0x60 }
+  - { offset: 0x35310, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x1290, symBinAddr: 0x3090, symSize: 0xE0 }
+  - { offset: 0x353F1, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC05startB08tenantID0E2PWySS_SStFySi_SbtcfU_TA', symObjAddr: 0x1870, symBinAddr: 0x3670, symSize: 0x10 }
+  - { offset: 0x35405, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x1880, symBinAddr: 0x3680, symSize: 0x40 }
+  - { offset: 0x35419, size: 0x8, addend: 0x0, symName: '_$s12TJLabsCommon13ReceivedForceVSgWOc', symObjAddr: 0x18C0, symBinAddr: 0x36C0, symSize: 0x40 }
+  - { offset: 0x3549B, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerCMU', symObjAddr: 0x1E90, symBinAddr: 0x3C90, symSize: 0x10 }
+  - { offset: 0x354AF, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerCMa', symObjAddr: 0x1EA0, symBinAddr: 0x3CA0, symSize: 0x30 }
+  - { offset: 0x354C3, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerCMr', symObjAddr: 0x1ED0, symBinAddr: 0x3CD0, symSize: 0x130 }
+  - { offset: 0x354D7, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC14startGenerator10completionyySb_SStc_tFSdycfU_TA', symObjAddr: 0x22E0, symBinAddr: 0x40E0, symSize: 0x10 }
+  - { offset: 0x3556A, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC11onRfdResult_13receivedForcey0A6Common12RFDGeneratorC_AF08ReceivedH0VtF', symObjAddr: 0x0, symBinAddr: 0x1EB0, symSize: 0x10 }
+  - { offset: 0x357AA, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SdTgm5Tf4g_n', symObjAddr: 0x1D80, symBinAddr: 0x3B80, symSize: 0xE0 }
+  - { offset: 0x358E8, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC10onRfdError_4code3msgy0A6Common12RFDGeneratorC_SiSStF', symObjAddr: 0x10, symBinAddr: 0x1EC0, symSize: 0x10 }
+  - { offset: 0x3592D, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC11onUvdResult_4mode12userVelocityy0A6Common12UVDGeneratorC_AG8UserModeOAG0lI0VtF', symObjAddr: 0x20, symBinAddr: 0x1ED0, symSize: 0x10 }
+  - { offset: 0x35947, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerCACycfC', symObjAddr: 0x50, symBinAddr: 0x1EE0, symSize: 0x30 }
+  - { offset: 0x3595B, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerCACycfc', symObjAddr: 0x80, symBinAddr: 0x1F10, symSize: 0x130 }
+  - { offset: 0x359BC, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC8delegateAA0aB8Delegate_pSgvg', symObjAddr: 0x240, symBinAddr: 0x20D0, symSize: 0x40 }
+  - { offset: 0x359D9, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC8delegateAA0aB8Delegate_pSgvs', symObjAddr: 0x280, symBinAddr: 0x2110, symSize: 0x40 }
+  - { offset: 0x35A00, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC8delegateAA0aB8Delegate_pSgvM', symObjAddr: 0x2C0, symBinAddr: 0x2150, symSize: 0x30 }
+  - { offset: 0x35A23, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC8delegateAA0aB8Delegate_pSgvM.resume.0', symObjAddr: 0x2F0, symBinAddr: 0x2180, symSize: 0x10 }
+  - { offset: 0x35A44, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC05startB08tenantID0E2PWySS_SStF', symObjAddr: 0x300, symBinAddr: 0x2190, symSize: 0x190 }
+  - { offset: 0x35A9E, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC05startB08tenantID0E2PWySS_SStFySi_SbtcfU_', symObjAddr: 0x490, symBinAddr: 0x2320, symSize: 0xC0 }
+  - { offset: 0x35BEF, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC04stopB0yyF', symObjAddr: 0x550, symBinAddr: 0x23E0, symSize: 0x60 }
+  - { offset: 0x35D2B, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC17setNearestBWardID7bWardIdySS_tF', symObjAddr: 0x5B0, symBinAddr: 0x2440, symSize: 0x280 }
+  - { offset: 0x35F39, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC16findNearestBWardSDySSSdGyF', symObjAddr: 0x830, symBinAddr: 0x26C0, symSize: 0x250 }
+  - { offset: 0x361E6, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC17getNearestBWardIDSSyF', symObjAddr: 0xE10, symBinAddr: 0x2CA0, symSize: 0x30 }
+  - { offset: 0x36227, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC19getNearestBWardRSSISdyF', symObjAddr: 0xE40, symBinAddr: 0x2CD0, symSize: 0x120 }
+  - { offset: 0x3628C, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC16setStepWindowSec3secySd_tF', symObjAddr: 0xF60, symBinAddr: 0x2DF0, symSize: 0x20 }
+  - { offset: 0x362FD, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC14startGenerator10completionyySb_SStc_tFSdycfU_', symObjAddr: 0xF80, symBinAddr: 0x2E10, symSize: 0x50 }
+  - { offset: 0x36340, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerCfd', symObjAddr: 0xFD0, symBinAddr: 0x2E60, symSize: 0xA0 }
+  - { offset: 0x36363, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerCfD', symObjAddr: 0x1070, symBinAddr: 0x2F00, symSize: 0x20 }
+  - { offset: 0x363E0, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC11onRfdResult_13receivedForcey0A6Common12RFDGeneratorC_AF08ReceivedH0VtFTf4dnn_n', symObjAddr: 0x1370, symBinAddr: 0x3170, symSize: 0x130 }
+  - { offset: 0x3650E, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC11onUvdResult_4mode12userVelocityy0A6Common12UVDGeneratorC_AG8UserModeOAG0lI0VtFTf4dnnn_n', symObjAddr: 0x1710, symBinAddr: 0x3510, symSize: 0x160 }
+  - { offset: 0x36717, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis0aB7ManagerC14startGenerator10completionyySb_SStc_tF04$s11a9Aegis0aB7C54C05startB08tenantID0E2PWySS_SStFySi_SbtcfU_ySb_SStcfU_ACTf1cn_nTf4ng_n', symObjAddr: 0x1900, symBinAddr: 0x3700, symSize: 0x480 }
+  - { offset: 0x36B20, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis20CALIBRATION_DURATIONSdvg', symObjAddr: 0x0, symBinAddr: 0x4140, symSize: 0xE }
+  - { offset: 0x36B37, size: 0x8, addend: 0x0, symName: '_$s11TJLabsAegis20CALIBRATION_DURATIONSdvg', symObjAddr: 0x0, symBinAddr: 0x4140, symSize: 0xE }
+...

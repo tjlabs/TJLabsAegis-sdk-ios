@@ -1,0 +1,22 @@
+{
+  "name": "TJLabsAegisSDK",
+  "version": "0.1.0",
+  "summary": "A short description of TJLabsAegisSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tjlabs-dev/TJLabsAegisSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tjlabs-dev": "92098727+tjlabs-dev@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/tjlabs-dev/TJLabsAegisSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TJLabsAegisSDK/Classes/**/*"
+}

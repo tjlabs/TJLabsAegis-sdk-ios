@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TJLabsAegis
+import Foundation
+import Swift
+@_exported import TJLabsAegis
+import TJLabsAuth
+import TJLabsCommon
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class TJLabsAegisManager : TJLabsCommon.RFDGeneratorDelegate, TJLabsCommon.UVDGeneratorDelegate {
+  public func onRfdResult(_ generator: TJLabsCommon.RFDGenerator, receivedForce: TJLabsCommon.ReceivedForce)
+  public func onRfdError(_ generator: TJLabsCommon.RFDGenerator, code: Swift.Int, msg: Swift.String)
+  public func onRfdEmptyMillis(_ generator: TJLabsCommon.RFDGenerator, time: Swift.Double)
+  public func onUvdResult(_ generator: TJLabsCommon.UVDGenerator, mode: TJLabsCommon.UserMode, userVelocity: TJLabsCommon.UserVelocity)
+  public func onPressureResult(_ generator: TJLabsCommon.UVDGenerator, hPa: Swift.Double)
+  public func onVelocityResult(_ generator: TJLabsCommon.UVDGenerator, kmPh: Swift.Double)
+  public func onMagNormSmoothingVarResult(_ generator: TJLabsCommon.UVDGenerator, value: Swift.Double)
+  public func onUvdPauseMillis(_ generator: TJLabsCommon.UVDGenerator, time: Swift.Double)
+  public func onUvdError(_ generator: TJLabsCommon.UVDGenerator, error: Swift.String)
+  public init()
+  public var delegate: (any TJLabsAegis.TJLabsAegisDelegate)?
+  public func startAegis(tenantID: Swift.String, tenantPW: Swift.String)
+  public func stopAegis()
+  public func setNearestBWardID(bWardId: Swift.String)
+  public func findNearestBWard() -> [Swift.String : Swift.Double]
+  public func getNearestBWardID() -> Swift.String
+  public func getNearestBWardRSSI() -> Swift.Double
+  public func setStepWindowSec(sec: Swift.Double)
+  @objc deinit
+}
+public let CALIBRATION_DURATION: Swift.Double
+public protocol TJLabsAegisDelegate : AnyObject {
+  func onAegisSuccess(_ manager: TJLabsAegis.TJLabsAegisManager, isSuccess: Swift.Bool, msg: Swift.String)
+  func onAegisError(_ manager: TJLabsAegis.TJLabsAegisManager, isFail: Swift.Bool, msg: Swift.String)
+  func onAegisResult(_ manager: TJLabsAegis.TJLabsAegisManager, rssiScore: Swift.Double, stepScore: Swift.Double)
+}
