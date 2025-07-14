@@ -3,14 +3,10 @@ import Foundation
 import TJLabsAegis
 
 public class AegisManager: TJLabsAegisDelegate {
-    static let sdkVersion: String = "0.1.1"
+    static let sdkVersion: String = "0.1.2"
     
     public func onAegisSuccess(_ manager: TJLabsAegis.TJLabsAegisManager, isSuccess: Bool, msg: String) {
         delegate?.onAegisSuccess(self, isSuccess: isSuccess, msg: msg)
-    }
-    
-    public func onAegisError(_ manager: TJLabsAegis.TJLabsAegisManager, isFail: Bool, msg: String) {
-        delegate?.onAegisError(self, isFail: isFail, msg: msg)
     }
     
     public func onAegisResult(_ manager: TJLabsAegis.TJLabsAegisManager, rssiScore: Float, stepScore: Float) {
@@ -32,20 +28,10 @@ public class AegisManager: TJLabsAegisDelegate {
         manager.stopAegis()
     }
     
-    public func setNearestBWardID(bWardId: String) {
-        manager.setNearestBWardID(bWardId: bWardId)
-    }
-    
-    public func findNearestBWard() -> [String: Double] {
-        return manager.findNearestBWard()
-    }
-    
-    public func getNearestBWardID() -> String {
-        return manager.getNearestBWardID()
-    }
-    
-    public func getNearestBWardRSSI() -> Double {
-        return manager.getNearestBWardRSSI()
+    public func setNearestBWardID(bWardId: String, completion: @escaping (Bool, String) -> Void) {
+        manager.setNearestBWardID(bWardId: bWardId, completion: { isSuccess, msg in
+            completion(isSuccess, msg)
+        })
     }
 
     public func setStepWindowSec(sec: Double) {

@@ -516,7 +516,7 @@
           {
             "kind": "Function",
             "name": "setNearestBWardID",
-            "printedName": "setNearestBWardID(bWardId:)",
+            "printedName": "setNearestBWardID(bWardId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -528,88 +528,42 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TJLabsAegis0aB7ManagerC17setNearestBWardID7bWardIdySS_tF",
-            "mangledName": "$s11TJLabsAegis0aB7ManagerC17setNearestBWardID7bWardIdySS_tF",
-            "moduleName": "TJLabsAegis",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "findNearestBWard",
-            "printedName": "findNearestBWard()",
-            "children": [
+              },
               {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.Double]",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Void",
+                    "printedName": "()"
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   }
-                ],
-                "usr": "s:SD"
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TJLabsAegis0aB7ManagerC16findNearestBWardSDySSSdGyF",
-            "mangledName": "$s11TJLabsAegis0aB7ManagerC16findNearestBWardSDySSSdGyF",
-            "moduleName": "TJLabsAegis",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getNearestBWardID",
-            "printedName": "getNearestBWardID()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TJLabsAegis0aB7ManagerC17getNearestBWardIDSSyF",
-            "mangledName": "$s11TJLabsAegis0aB7ManagerC17getNearestBWardIDSSyF",
-            "moduleName": "TJLabsAegis",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getNearestBWardRSSI",
-            "printedName": "getNearestBWardRSSI()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TJLabsAegis0aB7ManagerC19getNearestBWardRSSISdyF",
-            "mangledName": "$s11TJLabsAegis0aB7ManagerC19getNearestBWardRSSISdyF",
+            "usr": "s:11TJLabsAegis0aB7ManagerC17setNearestBWardID7bWardId10completionySS_ySb_SStctF",
+            "mangledName": "$s11TJLabsAegis0aB7ManagerC17setNearestBWardID7bWardId10completionySS_ySb_SStctF",
             "moduleName": "TJLabsAegis",
             "declAttributes": [
               "AccessControl"
@@ -772,45 +726,6 @@
           },
           {
             "kind": "Function",
-            "name": "onAegisError",
-            "printedName": "onAegisError(_:isFail:msg:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "TJLabsAegisManager",
-                "printedName": "TJLabsAegis.TJLabsAegisManager",
-                "usr": "s:11TJLabsAegis0aB7ManagerC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11TJLabsAegis0aB8DelegateP02onB5Error_6isFail3msgyAA0aB7ManagerC_SbSStF",
-            "mangledName": "$s11TJLabsAegis0aB8DelegateP02onB5Error_6isFail3msgyAA0aB7ManagerC_SbSStF",
-            "moduleName": "TJLabsAegis",
-            "genericSig": "<τ_0_0 where τ_0_0 : TJLabsAegis.TJLabsAegisDelegate>",
-            "sugared_genericSig": "<Self where Self : TJLabsAegis.TJLabsAegisDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "onAegisResult",
             "printedName": "onAegisResult(_:rssiScore:stepScore:)",
             "children": [
@@ -883,70 +798,70 @@
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1800,
+      "offset": 1667,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1983,
+      "offset": 1850,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "StringLiteral",
-      "offset": 2148,
+      "offset": 2015,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2198,
+      "offset": 2065,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2292,
+      "offset": 2159,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2328,
+      "offset": 2195,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2366,
+      "offset": 2233,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2403,
+      "offset": 2270,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2464,
+      "offset": 2331,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "StringLiteral",
-      "offset": 2504,
+      "offset": 2371,
       "length": 2,
       "value": "\"\""
     },

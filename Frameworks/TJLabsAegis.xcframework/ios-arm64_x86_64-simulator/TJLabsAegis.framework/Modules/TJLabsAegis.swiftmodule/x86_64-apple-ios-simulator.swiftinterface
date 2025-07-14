@@ -23,16 +23,12 @@ public class TJLabsAegisManager : TJLabsCommon.RFDGeneratorDelegate, TJLabsCommo
   public var delegate: (any TJLabsAegis.TJLabsAegisDelegate)?
   public func startAegis(tenantID: Swift.String, tenantPW: Swift.String)
   public func stopAegis()
-  public func setNearestBWardID(bWardId: Swift.String)
-  public func findNearestBWard() -> [Swift.String : Swift.Double]
-  public func getNearestBWardID() -> Swift.String
-  public func getNearestBWardRSSI() -> Swift.Double
+  public func setNearestBWardID(bWardId: Swift.String, completion: @escaping (Swift.Bool, Swift.String) -> Swift.Void)
   public func setStepWindowSec(sec: Swift.Double)
   @objc deinit
 }
 public let CALIBRATION_DURATION: Swift.Double
 public protocol TJLabsAegisDelegate : AnyObject {
   func onAegisSuccess(_ manager: TJLabsAegis.TJLabsAegisManager, isSuccess: Swift.Bool, msg: Swift.String)
-  func onAegisError(_ manager: TJLabsAegis.TJLabsAegisManager, isFail: Swift.Bool, msg: Swift.String)
   func onAegisResult(_ manager: TJLabsAegis.TJLabsAegisManager, rssiScore: Swift.Float, stepScore: Swift.Float)
 }

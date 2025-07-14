@@ -526,14 +526,27 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Tuple",
+                "printedName": "(Swift.Bool, Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:12TJLabsCommon12RFDGeneratorC19checkIsAvailableRfdSbyF",
-            "mangledName": "$s12TJLabsCommon12RFDGeneratorC19checkIsAvailableRfdSbyF",
+            "usr": "s:12TJLabsCommon12RFDGeneratorC19checkIsAvailableRfdSb_SStyF",
+            "mangledName": "$s12TJLabsCommon12RFDGeneratorC19checkIsAvailableRfdSb_SStyF",
             "moduleName": "TJLabsCommon",
             "declAttributes": [
               "AccessControl"
@@ -5269,14 +5282,27 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Tuple",
+                "printedName": "(Swift.Bool, Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:12TJLabsCommon12UVDGeneratorC19checkIsAvailableUvdSbyF",
-            "mangledName": "$s12TJLabsCommon12UVDGeneratorC19checkIsAvailableUvdSbyF",
+            "usr": "s:12TJLabsCommon12UVDGeneratorC19checkIsAvailableUvdSb_SStyF",
+            "mangledName": "$s12TJLabsCommon12UVDGeneratorC19checkIsAvailableUvdSb_SStyF",
             "moduleName": "TJLabsCommon",
             "declAttributes": [
               "AccessControl"
@@ -11210,35 +11236,35 @@
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsCommon-sdk-ios\/TJLabsCommon\/RFD\/RFDGenerator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1620,
+      "offset": 1922,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsCommon-sdk-ios\/TJLabsCommon\/RFD\/RFDGenerator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1622,
+      "offset": 1924,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsCommon-sdk-ios\/TJLabsCommon\/RFD\/RFDGenerator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1659,
+      "offset": 1961,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsCommon-sdk-ios\/TJLabsCommon\/RFD\/RFDGenerator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1689,
+      "offset": 1991,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsCommon-sdk-ios\/TJLabsCommon\/RFD\/RFDGenerator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1719,
+      "offset": 2021,
       "length": 3,
       "value": "-40"
     },
@@ -13408,21 +13434,21 @@
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsCommon-sdk-ios\/TJLabsCommon\/UVD\/UVDGenerator.swift",
       "kind": "FloatLiteral",
-      "offset": 1456,
+      "offset": 1464,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsCommon-sdk-ios\/TJLabsCommon\/UVD\/UVDGenerator.swift",
       "kind": "FloatLiteral",
-      "offset": 1488,
+      "offset": 1496,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsCommon-sdk-ios\/TJLabsCommon\/UVD\/UVDGenerator.swift",
       "kind": "FloatLiteral",
-      "offset": 1520,
+      "offset": 1528,
       "length": 3,
       "value": "0.7"
     },

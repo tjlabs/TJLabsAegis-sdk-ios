@@ -24,7 +24,7 @@ import simd
   public var pressureProvider: () -> Swift.Double
   public init(userId: Swift.String)
   public func setScanMode(scanMode: TJLabsCommon.ScanMode)
-  public func checkIsAvailableRfd() -> Swift.Bool
+  public func checkIsAvailableRfd() -> (Swift.Bool, Swift.String)
   public func generateRfd(rfdIntervalMillis: Foundation.TimeInterval = 1/2, bleScanWindowTimeMillis: Swift.Double = 1000, minRssiThreshold: Swift.Int = -100, maxRssiThreshold: Swift.Int = -40)
   public func stopRfdGeneration()
   @objc deinit
@@ -212,7 +212,7 @@ extension Swift.String {
   public init(userId: Swift.String)
   public func setUserMode(mode: TJLabsCommon.UserMode)
   public func updateDrVelocityScale(scale: Swift.Double)
-  public func checkIsAvailableUvd() -> Swift.Bool
+  public func checkIsAvailableUvd() -> (Swift.Bool, Swift.String)
   public func generateUvd(defaultPDRStepLength: Swift.Double = 0.6, minPDRStepLength: Swift.Double = 0.5, maxPDRStepLength: Swift.Double = 0.7)
   public func stopUvdGeneration()
   @objc deinit

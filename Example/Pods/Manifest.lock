@@ -1,5 +1,5 @@
 PODS:
-  - TJLabsAegisSDK (0.1.0)
+  - TJLabsAegisSDK (0.1.1)
 
 DEPENDENCIES:
   - TJLabsAegisSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TJLabsAegisSDK: bbf0167fc40474c7578c338c0cc1ef07fbc423a7
+  TJLabsAegisSDK: 23d04798a7d338785c57d0db4b9238753ed23e07
 
 PODFILE CHECKSUM: f357f6d8ac60a874e1ed43f002f57c6eb3d4f9ab
 
