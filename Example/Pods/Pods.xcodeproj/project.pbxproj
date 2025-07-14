@@ -40,41 +40,41 @@
 /* Begin PBXFileReference section */
 		01AC676D3E596DFCCA0499C2BD7DDDEE /* Pods-TJLabsAegisSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJLabsAegisSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		05184C24166AF422B14059F1935F14BA /* Pods-TJLabsAegisSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJLabsAegisSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0CCA7652CB4704871EA4EEA7F8CC6B6D /* Pods_TJLabsAegisSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJLabsAegisSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCA7652CB4704871EA4EEA7F8CC6B6D /* Pods-TJLabsAegisSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TJLabsAegisSDK_Example"; path = Pods_TJLabsAegisSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AD15C57E5CA50C81EDBA6663A5D8E2 /* Pods-TJLabsAegisSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJLabsAegisSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		150CFD7D444AB84AE0E1EBB5918B6910 /* TJLabsAegisSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJLabsAegisSDK.release.xcconfig; sourceTree = "<group>"; };
-		17CB4BF3E61F61CB3F3F63C7CF295423 /* TJLabsAegisSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TJLabsAegisSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		17CB4BF3E61F61CB3F3F63C7CF295423 /* TJLabsAegisSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TJLabsAegisSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		341F934162F949D185436F745B5C59C9 /* Pods-TJLabsAegisSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJLabsAegisSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		3654CDAA3A5F67A9D1CA38A2E332C561 /* TJLabsAegisSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TJLabsAegisSDK.modulemap; sourceTree = "<group>"; };
 		365AF5F8B8B82A71B308907CF56A5835 /* Pods-TJLabsAegisSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TJLabsAegisSDK_Example.modulemap"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C91A9B671F158FA24AD67631C3760AE /* TJLabsAegisSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TJLabsAegisSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		49DA2B49EDC58346D265EF4B7B025BF8 /* AegisModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AegisModel.swift; path = TJLabsAegisSDK/Classes/AegisModel.swift; sourceTree = "<group>"; };
-		4E274EE93338343B40227D174C405A27 /* TJLabsAuth.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TJLabsAuth.xcframework; path = Frameworks/TJLabsAuth.xcframework; sourceTree = "<group>"; };
+		4E274EE93338343B40227D174C405A27 /* TJLabsAuth.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TJLabsAuth.xcframework; path = Frameworks/TJLabsAuth.xcframework; sourceTree = "<group>"; };
 		5783E5597523E57CEF5BF294C18CFF05 /* Pods-TJLabsAegisSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJLabsAegisSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		5996E2A47451175653230A9439D50B8F /* Pods-TJLabsAegisSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJLabsAegisSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		62FF5BC3D5462A5547052970AFE2CA89 /* TJLabsAegisSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TJLabsAegisSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FF5BC3D5462A5547052970AFE2CA89 /* TJLabsAegisSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TJLabsAegisSDK; path = TJLabsAegisSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDB4B6D53B8E58E76EFC980E0D88E68 /* Pods-TJLabsAegisSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJLabsAegisSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		736527BA92053571363B71DD6E029B25 /* Pods-TJLabsAegisSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJLabsAegisSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7D2DC4EE18D64DAB5DA8EBE234F04249 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7D2DC4EE18D64DAB5DA8EBE234F04249 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7E8D6E92EEFC4F8F022E245308044B2E /* Pods-TJLabsAegisSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJLabsAegisSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7E9821977D8A2C8D8CDA1BF63C51AE77 /* Pods-TJLabsAegisSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJLabsAegisSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		88F5173D3F37B05B5B7BB2C97C6D9A25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8F8A35D847FD034ED1F4AA4AC2F5ECD7 /* Pods_TJLabsAegisSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJLabsAegisSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F5173D3F37B05B5B7BB2C97C6D9A25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8F8A35D847FD034ED1F4AA4AC2F5ECD7 /* Pods-TJLabsAegisSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TJLabsAegisSDK_Tests"; path = Pods_TJLabsAegisSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98440D801FD92D42A12E9FF90BB1189C /* TJLabsAegisSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TJLabsAegisSDK-Info.plist"; sourceTree = "<group>"; };
 		986DC58011DECF0949E20DE81A4F716A /* Pods-TJLabsAegisSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJLabsAegisSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7FFB0FDFFB2A6B12DB24C24E7B0C8B8 /* TJLabsAegisSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJLabsAegisSDK.debug.xcconfig; sourceTree = "<group>"; };
 		A8E85CB80F82989491DDA3EEB4ABEFCC /* Pods-TJLabsAegisSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJLabsAegisSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ADAD9155187A55DC6E66D614A9F3A979 /* TJLabsAegisSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJLabsAegisSDK-prefix.pch"; sourceTree = "<group>"; };
 		AE9C7527EB5653BAA2448D374CDF1740 /* Pods-TJLabsAegisSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJLabsAegisSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B28C76ED2D05D6B3135C51A4BE39212B /* Pods-TJLabsAegisSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TJLabsAegisSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		B4AB867C59FD127B4172870393C34027 /* TJLabsAegis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TJLabsAegis.xcframework; path = Frameworks/TJLabsAegis.xcframework; sourceTree = "<group>"; };
+		B4AB867C59FD127B4172870393C34027 /* TJLabsAegis.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TJLabsAegis.xcframework; path = Frameworks/TJLabsAegis.xcframework; sourceTree = "<group>"; };
 		CB3628EA7DE631308734DDC92AA862DE /* Pods-TJLabsAegisSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJLabsAegisSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D3199F2D8663D189FE5CC972F2AB2106 /* TJLabsAegisSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJLabsAegisSDK-dummy.m"; sourceTree = "<group>"; };
 		DA0239B1B41F0A03D52811E25D5C1327 /* Pods-TJLabsAegisSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJLabsAegisSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E5F4F5EDC56CD658F3DACCD4C8CD9223 /* TJLabsAegisSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJLabsAegisSDK-umbrella.h"; sourceTree = "<group>"; };
-		E9B1542074186DFDCC4BF611BB96A5B5 /* TJLabsCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = TJLabsCommon.xcframework; path = Frameworks/TJLabsCommon.xcframework; sourceTree = "<group>"; };
+		E9B1542074186DFDCC4BF611BB96A5B5 /* TJLabsCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TJLabsCommon.xcframework; path = Frameworks/TJLabsCommon.xcframework; sourceTree = "<group>"; };
 		FAE7DF6416C9B1BB9025CB18A67A1BF5 /* AegisManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AegisManager.swift; path = TJLabsAegisSDK/Classes/AegisManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,9 +173,9 @@
 		92BB0640F067982C6046A116C04377E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CCA7652CB4704871EA4EEA7F8CC6B6D /* Pods_TJLabsAegisSDK_Example.framework */,
-				8F8A35D847FD034ED1F4AA4AC2F5ECD7 /* Pods_TJLabsAegisSDK_Tests.framework */,
-				62FF5BC3D5462A5547052970AFE2CA89 /* TJLabsAegisSDK.framework */,
+				0CCA7652CB4704871EA4EEA7F8CC6B6D /* Pods-TJLabsAegisSDK_Example */,
+				8F8A35D847FD034ED1F4AA4AC2F5ECD7 /* Pods-TJLabsAegisSDK_Tests */,
+				62FF5BC3D5462A5547052970AFE2CA89 /* TJLabsAegisSDK */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 			);
 			name = TJLabsAegisSDK;
 			productName = TJLabsAegisSDK;
-			productReference = 62FF5BC3D5462A5547052970AFE2CA89 /* TJLabsAegisSDK.framework */;
+			productReference = 62FF5BC3D5462A5547052970AFE2CA89 /* TJLabsAegisSDK */;
 			productType = "com.apple.product-type.framework";
 		};
 		F2C8569454FB1AE21260728DFD47E458 /* Pods-TJLabsAegisSDK_Tests */ = {
@@ -307,7 +307,7 @@
 			);
 			name = "Pods-TJLabsAegisSDK_Tests";
 			productName = Pods_TJLabsAegisSDK_Tests;
-			productReference = 8F8A35D847FD034ED1F4AA4AC2F5ECD7 /* Pods_TJLabsAegisSDK_Tests.framework */;
+			productReference = 8F8A35D847FD034ED1F4AA4AC2F5ECD7 /* Pods-TJLabsAegisSDK_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		F69860AB6877B3C101315661C791230F /* Pods-TJLabsAegisSDK_Example */ = {
@@ -326,7 +326,7 @@
 			);
 			name = "Pods-TJLabsAegisSDK_Example";
 			productName = Pods_TJLabsAegisSDK_Example;
-			productReference = 0CCA7652CB4704871EA4EEA7F8CC6B6D /* Pods_TJLabsAegisSDK_Example.framework */;
+			productReference = 0CCA7652CB4704871EA4EEA7F8CC6B6D /* Pods-TJLabsAegisSDK_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -347,6 +347,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 92BB0640F067982C6046A116C04377E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -757,7 +759,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TJLabsAegisSDK'
-  s.version          = '0.0.4'
+  s.version          = '0.1.0'
   s.summary          = 'TJLabsAegisSDK for iOS'
   s.swift_version    = '5.0'
   s.description      = 'Developed by TJLABS'

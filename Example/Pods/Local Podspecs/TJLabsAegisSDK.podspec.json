@@ -1,6 +1,6 @@
 {
   "name": "TJLabsAegisSDK",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "TJLabsAegisSDK for iOS",
   "swift_versions": "5.0",
   "description": "Developed by TJLABS",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/tjlabs/TJLabsAegis-sdk-ios.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "15.0"
