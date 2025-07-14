@@ -3,7 +3,7 @@ import Foundation
 import TJLabsAegis
 
 public class AegisManager: TJLabsAegisDelegate {
-    static let sdkVersion: String = "0.0.3"
+    static let sdkVersion: String = "0.0.4"
     
     public func onAegisSuccess(_ manager: TJLabsAegis.TJLabsAegisManager, isSuccess: Bool, msg: String) {
         delegate?.onAegisSuccess(self, isSuccess: isSuccess, msg: msg)
