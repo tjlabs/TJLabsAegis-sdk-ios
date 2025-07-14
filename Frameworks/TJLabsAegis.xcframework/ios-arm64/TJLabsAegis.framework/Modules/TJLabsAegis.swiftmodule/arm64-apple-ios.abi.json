@@ -827,20 +827,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11TJLabsAegis0aB8DelegateP02onB6Result_9rssiScore04stepG0yAA0aB7ManagerC_S2dtF",
-            "mangledName": "$s11TJLabsAegis0aB8DelegateP02onB6Result_9rssiScore04stepG0yAA0aB7ManagerC_S2dtF",
+            "usr": "s:11TJLabsAegis0aB8DelegateP02onB6Result_9rssiScore04stepG0yAA0aB7ManagerC_S2ftF",
+            "mangledName": "$s11TJLabsAegis0aB8DelegateP02onB6Result_9rssiScore04stepG0yAA0aB7ManagerC_S2ftF",
             "moduleName": "TJLabsAegis",
             "genericSig": "<τ_0_0 where τ_0_0 : TJLabsAegis.TJLabsAegisDelegate>",
             "sugared_genericSig": "<Self where Self : TJLabsAegis.TJLabsAegisDelegate>",
@@ -883,70 +883,70 @@
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1660,
+      "offset": 1800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "FloatLiteral",
-      "offset": 1843,
+      "offset": 1983,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "StringLiteral",
-      "offset": 2008,
+      "offset": 2148,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2058,
+      "offset": 2198,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2152,
+      "offset": 2292,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2188,
+      "offset": 2328,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2227,
+      "offset": 2366,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2265,
+      "offset": 2403,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2326,
+      "offset": 2464,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/leo\/SwiftProjects\/Frameworks\/TJLabsAegis\/TJLabsAegis\/Manager\/TJLabsAegisManager.swift",
       "kind": "StringLiteral",
-      "offset": 2366,
+      "offset": 2504,
       "length": 2,
       "value": "\"\""
     },

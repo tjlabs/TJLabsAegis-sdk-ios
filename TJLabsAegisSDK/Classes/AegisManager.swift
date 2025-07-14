@@ -3,7 +3,7 @@ import Foundation
 import TJLabsAegis
 
 public class AegisManager: TJLabsAegisDelegate {
-    static let sdkVersion: String = "0.1.0"
+    static let sdkVersion: String = "0.1.1"
     
     public func onAegisSuccess(_ manager: TJLabsAegis.TJLabsAegisManager, isSuccess: Bool, msg: String) {
         delegate?.onAegisSuccess(self, isSuccess: isSuccess, msg: msg)
@@ -13,7 +13,7 @@ public class AegisManager: TJLabsAegisDelegate {
         delegate?.onAegisError(self, isFail: isFail, msg: msg)
     }
     
-    public func onAegisResult(_ manager: TJLabsAegis.TJLabsAegisManager, rssiScore: Double, stepScore: Double) {
+    public func onAegisResult(_ manager: TJLabsAegis.TJLabsAegisManager, rssiScore: Float, stepScore: Float) {
         delegate?.onAegisResult(self, rssiScore: rssiScore, stepScore: stepScore)
     }
     

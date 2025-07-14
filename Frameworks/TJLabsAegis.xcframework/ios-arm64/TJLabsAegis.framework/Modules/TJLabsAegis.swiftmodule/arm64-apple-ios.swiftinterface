@@ -34,5 +34,5 @@ public let CALIBRATION_DURATION: Swift.Double
 public protocol TJLabsAegisDelegate : AnyObject {
   func onAegisSuccess(_ manager: TJLabsAegis.TJLabsAegisManager, isSuccess: Swift.Bool, msg: Swift.String)
   func onAegisError(_ manager: TJLabsAegis.TJLabsAegisManager, isFail: Swift.Bool, msg: Swift.String)
-  func onAegisResult(_ manager: TJLabsAegis.TJLabsAegisManager, rssiScore: Swift.Double, stepScore: Swift.Double)
+  func onAegisResult(_ manager: TJLabsAegis.TJLabsAegisManager, rssiScore: Swift.Float, stepScore: Swift.Float)
 }
